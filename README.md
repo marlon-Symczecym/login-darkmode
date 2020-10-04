@@ -1,8 +1,8 @@
 # Login DarkMode
 
 <div style="margin: 0 auto; text-align: center">
-  <img style="width: 500px; height: 400px" src="images/light-mode.png" alt="light mode">
-  <img style="width: 500px; height: 400px" src="images/dark-mode.png" alt="dark mode">
+  <img style="width: 300px; height: 400px" src="images/light-mode.png" alt="light mode">
+  <img style="width: 300px; height: 400px" src="images/dark-mode.png" alt="dark mode">
 </div>
 
 O layout produzido foi feito por mim mesmo Marlon Symczecym, e a parte da programação também.
