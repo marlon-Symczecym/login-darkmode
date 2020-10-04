@@ -1,0 +1,13 @@
+button.form-button {
+  width: 23rem;
+  height: 6.5rem;
+  border-radius: 2rem;
+  background-color: var(--color-button-box);
+  color: var(--color-button-text);
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+button.form-button:hover {
+  background-color: #2275d4
+}

@@ -1,0 +1,52 @@
+label {
+  font-size: 2rem;
+  color: var(--color-text-label);
+  font-weight: normal;
+}
+
+.input-light {
+  width: 40rem;
+  height: 5rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  background-color: var(--color-secundary-light);
+  color: var(--color-text-input);
+}
+
+.input-dark {
+  width: 40rem;
+  height: 5rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  background-color: var(--color-secundary-dark);
+  color: var(--color-text-input);
+}
+
+.message {
+  width: 100%;
+  padding: .5rem 0;
+  background-color: var(--color-primary-light);
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding-left: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .input-dark,
+  .input-light {
+    width: 35rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .input-dark,
+  .input-light {
+    width: 30rem;
+  }
+}

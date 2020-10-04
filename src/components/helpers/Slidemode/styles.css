@@ -1,0 +1,73 @@
+.slider {
+  width: 7rem;
+  height: 3.5rem;
+  position: relative;
+  background-color: var(--color-secundary-dark);
+  border-radius: 2rem;
+
+  display: flex;
+  align-items: center;
+  padding: 0 .5rem;
+}
+
+.light {
+  width: 3rem;
+  height: 3rem;
+  background: var(--color-primary-light);
+  border-radius: 50px;
+  cursor: pointer;
+
+  position: absolute;
+  animation: themeLigh 1s;
+}
+
+.dark {
+  width: 3rem;
+  height: 3rem;
+  background: var(--color-primary-dark);
+  border-radius: 50px;
+  cursor: pointer;
+
+  position: absolute;
+  right: .5rem;
+
+  animation: themeDark 1s;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+@keyframes themeDark {
+  from {
+    width: 4rem;
+    right: 2rem;
+  }
+
+  to {
+    width: 3rem;
+    right: .5rem;
+  }
+}
+
+@keyframes themeLigh {
+  from {
+    width: 4rem;
+    left: 2rem;
+  }
+
+  to {
+    width: 3rem;
+    left: .5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .slider {
+    margin-bottom: 3rem;
+  }
+}
